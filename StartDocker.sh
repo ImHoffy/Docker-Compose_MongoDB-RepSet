@@ -16,7 +16,7 @@ echo "                                                     "
 
 docker-compose up -d
 
-sleep 20
+sleep 2
 
 echo " "
 echo "# # # # # # # # # # # # # # # # # # # # # # # # # # #"
@@ -26,7 +26,7 @@ echo "#"
 echo "# # # # # # # # # # # # # # # # # # # # # # # # # # #"
 echo " "
 
-sleep 5
+sleep 2
 
 docker exec mongoDB_01 mongo /scripts/MongoSetup.sh
 
@@ -38,7 +38,7 @@ echo "#"
 echo "# # # # # # # # # # # # # # # # # # # # # # # # # # #"
 echo " "
 
-sleep 5
+sleep 2
 
 echo " "
 echo "# # # # # # # # # # # # # # # # # # # # # # # # # # #"
@@ -55,6 +55,6 @@ echo "#"
 echo "# # # # # # # # # # # # # # # # # # # # # # # # # # #"
 echo " "
 
-sleep 5
+sleep 2
 
 exit
