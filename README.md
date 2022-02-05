@@ -15,9 +15,13 @@ sh StartDocker.sh
 
 ## Linux Server and UFW Firewall
 
+https://askubuntu.com/questions/652556/uncomplicated-firewall-ufw-is-not-blocking-anything-when-using-docker
+
 ```sh
-/etc/docker/daemon.json
+nano /etc/docker/daemon.json
 ```
+
+Add following line:
 
 ```json
 { "iptables": false }
